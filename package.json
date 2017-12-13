@@ -9,6 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "cos-nodejs-sdk-v4": "0.0.0",
+    "cos-nodejs-sdk-v5": "^2.0.20",
+    "crypto": "^1.0.1",
     "debug": "^2.6.3",
     "knex": "^0.14.1",
     "koa": "^2.2.0",
@@ -28,6 +31,7 @@
     "q": "^1.5.1",
     "qcloud_cos": "^1.0.6",
     "qiniu": "^7.1.1",
+    "qos-node-client": "0.0.6",
     "request": "^2.83.0",
     "require-dir": "^0.3.2",
     "tencentyun": "^2.0.4",
