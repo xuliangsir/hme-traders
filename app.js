@@ -13,7 +13,7 @@ const apiRouters = require('./routes/api');
 const rest = require('./util/rest');
 
 process.env.NODE_ENV = "development";
-console.log("NODE_ENV:", process.env.NODE_ENV);
+console.log(">>>>>>>>NODE_ENV:>>>>>>>>>", process.env.NODE_ENV);
 
 // error handler
 onerror(app);
